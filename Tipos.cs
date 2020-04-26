@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Reflection;
 
 namespace MobilityScm.Modelo.Tipos
@@ -201,12 +202,17 @@ namespace MobilityScm.Modelo.Tipos
         ,
         [StringValue("PRIORITY")]
         Prioridad
+        ,
+        [StringValue("ESTADOS")]
+        Estados
     }
 
     public enum TipoDeClasificaciones
     {
         [StringValue("SISTEMA")]
         Sistema
+        , [StringValue("ESTADO")]
+        Estado
     }
 
     public enum NombreDeClasificaciones
@@ -527,7 +533,21 @@ namespace MobilityScm.Modelo.Tipos
         [StringValue("DELIVERED_DISPATCH")]
         EntregaDeDespacho = 6,
         [StringValue("RECEPCION")]
-        Recepcion = 7
+        Recepcion = 7,
+        [StringValue("RAZON_DETALLE_LIBERACION")]
+        RazonDetalleLiberacion = 8,
+        [StringValue("DISPATCH_DEMAND_SOURCE_TYPE")]
+        FuenteDemandaDespacho = 9,
+        [StringValue("VALIDATE_TICKET_INCOME")]
+        ValidarIngresoTicket = 10,
+        [StringValue("VALIDATE_LOCATION")]
+        ValidateLocation = 11,
+        [StringValue("VALIDATE_QUANTITY")]
+        ValidateQuantity = 12,
+        [StringValue("TIPO_PASE_DE_SALIDA")]
+        TipoSalida = 13,
+        [StringValue("MATERIAL_SUB_FAMILY")]
+        MaterialSubFamily = 14
     }
 
 
@@ -555,7 +575,25 @@ namespace MobilityScm.Modelo.Tipos
         TipoDeClienteMovilDe3Pl = 8
         ,
         [StringValue("RAZON_DETALLE_CANCELADO")]
-        RazonDetalleCancelado = 9
+        RazonDetalleCancelado = 9,
+        [StringValue("LIBERACION_INVENTARIO")]
+        LiberacionInventario = 10
+        , [StringValue("DISPATCH_BY_STATUS")]
+        DespachoPorEstadoDematerial = 11,
+        [StringValue("AUTORIZACION_ENVIO_ERP_TRASLADO")]
+        AutorizacionEnvioErpTraslado = 12,
+        [StringValue("MUST_ENTER_TICKET")]
+        DebeIngresarTicket = 13,
+        [StringValue("INTEGRATION_NEXT")]
+        IntegracionNEXT = 14,
+        [StringValue("USE_EXIT_LOCATION")]
+        UseExitLocation = 15,
+        [StringValue("TAX_APPROVAL_AMOUNT")]
+        TaxApprovalAmount = 16,
+        [StringValue("SHOW_PANEL_CONDITIONS_LABEL")]
+        MostrarEtiquetaDePanelCondiciones = 17,
+        [StringValue("USE_MATERIAL_SUB_FAMILY")]
+        UseMaterialSubFamily = 18
     }
 
     public enum TipoCertificacion
@@ -616,15 +654,15 @@ namespace MobilityScm.Modelo.Tipos
     {
         [StringValue("The user name or password is incorrect")]
         ContraseñaIncorrecta,
-        [StringValue("Your license has been blocked")]
+        [StringValue("Your licenses has blocked")]
         LicenciaBloqueada,
-        [StringValue("Your license has expired")]
+        [StringValue("Your licenses has expired")]
         LicenciaExpirada,
-        [StringValue("Your company has been blocked")]
+        [StringValue("Your company has blocked")]
         EmpresaBloqueada,
         [StringValue("You do not have access")]
         SinAcceso,
-        [StringValue("User has been blocked")]
+        [StringValue("User has blocked")]
         UsuarioBloqueado
     }
 
@@ -672,7 +710,13 @@ namespace MobilityScm.Modelo.Tipos
     public enum Permiso
     {
         [StringValue("CAMBIAR_PRIORIDAD_TAREAS")]
-        CambiarPrioridadDeTareas
+        CambiarPrioridadDeTareas,
+        [StringValue("PUEDE_LIBERAR_INVENTARIO")]
+        PuedeLiberarInventario,
+        [StringValue("PUEDE_AUTORIZAR_CONTROL_CALIDAD")]
+        PuedeAutorizarControlDeCalidad,
+        [StringValue("CONFIRMAR_TAREA_RECEPCION")]
+        PuedeConfirmarRecepcion
     }
 
     public enum EstadoTarea
@@ -728,6 +772,129 @@ namespace MobilityScm.Modelo.Tipos
         Deposito
     }
 
+    public enum AccionEjecutadaSobreUsuario
+    {
+        Nuevo,
+        Actualizado,
+        Eliminado
+    }
+
+    public enum FuncionesWebApi
+    {
+        [StringValue("UpdateAddress")]
+        ActualizarDireccion,
+        [StringValue("GetUsers")]
+        Usuarios,
+        [StringValue("GetEntreprise")]
+        Licencias,
+        [StringValue("GetLicense")]
+        Empresas,
+        [StringValue("GetLicenseType")]
+        TipoLicencia,
+        [StringValue("GetApplications")]
+        Applicaciones
+    }
+
+    public enum Status
+    {
+        Active = 1,
+        Block = 0,
+        Pending = 2
+    }
+
+    public enum AssignationType
+    {
+        Automatic = 1,
+        OnDemand = 2
+
+    }
+
+    public enum ValidationTypes
+    {
+        PerDevice = 1,
+        PerUser = 2
+    }
+
+    public enum ParametrosGeneralesGrupo
+    {
+        [StringValue("INVENTARIO_INACTIVO")]
+        InventarioInactivo
+    }
+
+    public enum ParametrosGeneralesTipo
+    {
+        [StringValue("ALMACENAMIENTO")]
+        Almacenamiento
+    }
+
+    public enum ErrorDeFechas
+    {
+        [StringValue("La fecha de finalización debe ser mayor a la de inicio.")]
+        FechaFinMenor
+    }
+    public enum ErrorDeEncuesta
+    {
+        [StringValue("No existe encuesta asociada a esta pregunta.")]
+        EncuestaInexistente,
+        [StringValue("No existe pregunta asociada a esta respuesta.")]
+        PreguntaInexistente,
+        [StringValue("Se ha excedido del limite de preguntas permitidas.")]
+        LimiteDePreguntas,
+        [StringValue("La respuesta no debe estar vacía.")]
+        RespuestaVacia,
+        [StringValue("Parámetro de cantidad de preguntas permitidas no configurado, por favor, verifique y vuelva a intentar.")]
+        ParametroDeMaximoDePreguntasNoConfiguradas
+    }
+
+    public enum ErrorDeActualizacionEnGrid
+    {
+        [StringValue(" solamente puede tener el valor único y no único.")]
+        ValorNoValidoEnSkuPorEscala
+    }
+
+    public enum TiposDePromocion
+    {
+        [StringValue("SPECIAL_PRICE")]
+        PrecioEspecial
+    }
+
+    public enum ExportarA
+    {
+        [StringValue("Excel")]
+        Excel,
+        [StringValue("Pdf")]
+        Pdf
+    }
+
+    public enum ErrorEnPreciosEspeciales
+    {
+        [StringValue("No hay registros para actualizar.")]
+        SinRegistrosAActualizar,
+        [StringValue("Primero seleccione una promoción para eliminar.")]
+        SinPromoParaEliminar,
+        [StringValue("Rangos invalidos en el sku.")]
+        RangoInvalido,
+        [StringValue("Debe haber un valor en el campo del nombre de la promocipon.")]
+        NombreSinValor,
+        [StringValue("Se ha excedido de límite de caracteres establecidos para el nombre.")]
+        CaracteresExcedentesEnNombre
+    }
+
+    public enum ApiOptions
+    {
+        [StringValue("ValidateCredentials")]
+        ValidarCredenciales
+    }
+
+    public enum UrlApi
+    {
+        [StringValue("http://localhost:8088/SecurityAPI/odata/")]
+        UrlDesarrollo,
+        [StringValue("http://mobilitywebapi.centralus.cloudapp.azure.com:1025/SecurityAPI/odata/")]
+        UrlProducion,
+        [StringValue("http://190.56.115.27:9088/SecurityAPI/odata/")]
+        UrlQA
+    }
     public class RutasApi
     {
         private readonly string _valor;
@@ -758,10 +925,57 @@ namespace MobilityScm.Modelo.Tipos
             public static readonly RutasApi VerificarConexion = new Prueba("/v3/login/login");
         }
 
+        public class ProcesarUsuariosApi : RutasApi
+        {
+            private ProcesarUsuariosApi(string valor) : base(valor) { }
+
+            public static readonly RutasApi ProcesarUsuarios = new ProcesarUsuariosApi(Enums.GetStringValue(UrlApi.UrlProducion) + "ProcessSwiftUser");
+        }
+
+        public class ActualizarDireccionDeComunicacionDeLicenciaApi : RutasApi
+        {
+            private ActualizarDireccionDeComunicacionDeLicenciaApi(string valor) : base(valor) { }
+
+            public static readonly RutasApi ActualizarDireccionDeComunicacion =
+                new ActualizarDireccionDeComunicacionDeLicenciaApi(Enums.GetStringValue(UrlApi.UrlProducion) + "UpdateCommunicationAddress");
+        }
+
+        public class LiberarDispositivoApi : RutasApi
+        {
+            private LiberarDispositivoApi(string valor) : base(valor) { }
+
+            public static readonly RutasApi LiberarDispositivo =
+                new LiberarDispositivoApi(Enums.GetStringValue(UrlApi.UrlProducion) + "ReleaseDevice");
+        }
+
+        public class UsuarioApi : RutasApi
+        {
+            private UsuarioApi(string valor) : base(valor)
+            {
+            }
+
+            public static readonly RutasApi AsociarUsuario = new UsuarioApi(Enums.GetStringValue(UrlApi.UrlProducion) + "LicenseAssingation");
+            public static readonly RutasApi DesasociarUsuario = new UsuarioApi(Enums.GetStringValue(UrlApi.UrlProducion) + "RemoveLicenseDetail");
+        }
+
         public override string ToString()
         {
             return _valor;
         }
+    }
+
+    public enum EstadoDeProyecto
+    {
+        [StringValue("CREATED")]
+        Creado,
+        [StringValue("IN_PROCESS")]
+        EnProceso,
+        [StringValue("COMPLETED")]
+        Completado,
+        [StringValue("FINALIZED")]
+        Finalizado,
+        [StringValue("CANCELLED")]
+        Cancelado
     }
 
     #region "Auxiliares"
@@ -783,8 +997,6 @@ namespace MobilityScm.Modelo.Tipos
 
     }
 
-
-
     public static class Enums
     {
         public static string GetStringValue(Enum value)
@@ -792,7 +1004,6 @@ namespace MobilityScm.Modelo.Tipos
 
             Type type = value.GetType();
             FieldInfo fi = type.GetField(value.ToString());
-
 
             var attrs = fi.GetCustomAttributes(typeof(StringValueAttribute), false) as StringValueAttribute[];
             string output = "";

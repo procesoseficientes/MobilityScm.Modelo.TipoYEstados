@@ -47,7 +47,8 @@ namespace MobilityScm.Modelo.Estados
         ProcesandoNotaDeCredito = 1012,
         ProcesandoEntradaGeneralDeMercaderia = 1013,
         ProcesandoSalidaGeneralDeMercaderia = 1014,
-        ProcesandoEnvioDePagos = 1015
+        ProcesandoEnvioDePagos = 1015,
+        ProcesandoEnvioDePagosDeFacturas = 1016,
     }
 
 
@@ -93,7 +94,7 @@ namespace MobilityScm.Modelo.Estados
     }
 
     [Flags]
-    public enum CreacionRecepcion
+    public enum CreacionRecepciones
     {
         CrearDocDeEntradaDeInventarioErp = 1,
         MarcarEntradaDeInventarioComoEnviadaAErp = 2
@@ -101,14 +102,14 @@ namespace MobilityScm.Modelo.Estados
 
 
     [Flags]
-    public enum CreacionDeRetorno
+    public enum CreacionDeRetornos
     {
         CrearRetornoErp = 1,
         MarcarRetornoComoEnviadaAErp = 2
     }
 
     [Flags]
-    public enum CreacionDespacho
+    public enum CreacionDespachos
     {
         CrearDocDeSalidaDeInventario = 1,
         MarcarSalidaDeInventarioComoEnviadaAErp = 2

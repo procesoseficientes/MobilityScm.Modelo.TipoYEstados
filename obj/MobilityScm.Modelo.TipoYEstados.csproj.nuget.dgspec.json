@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\fabrv\\work\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\fabrv\\work\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj",
         "projectName": "MobilityScm.Modelo.TipoYEstados",
@@ -17,19 +17,21 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\fabrv\\work\\MobilityScm.Modelo.TipoYEstados\\NuGet.Config",
           "C:\\Users\\fabrv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "net40"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
           "https://nuget.pkg.github.com/procesoseficientes/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "net40": {
             "projectReferences": {}
           }
         },
@@ -40,25 +42,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
+        "net40": {
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }

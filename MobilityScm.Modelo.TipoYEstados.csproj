@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Procesos Eficientes</Authors>
+    <Company>Procesos Eficientes</Company>
+    <Description>Paquete del modelo de Tipos y Estados</Description>
+    <Copyright>Procesos Eficientes</Copyright>
+    <PackageProjectUrl>https://github.com/procesoseficientes/Mobility.Modelo.TipoYEstados</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/procesoseficientes/Mobility.Modelo.TipoYEstados</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>

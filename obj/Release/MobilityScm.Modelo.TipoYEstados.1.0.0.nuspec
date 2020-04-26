@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MobilityScm.Modelo.TipoYEstados</id>
+    <version>1.0.0</version>
+    <authors>Procesos Eficientes</authors>
+    <owners>Procesos Eficientes</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/procesoseficientes/Mobility.Modelo.TipoYEstados</projectUrl>
+    <description>Paquete del modelo de Tipos y Estados</description>
+    <copyright>Procesos Eficientes</copyright>
+    <repository type="git" url="https://github.com/procesoseficientes/Mobility.Modelo.TipoYEstados" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\bin\Release\netstandard2.0\MobilityScm.Modelo.TipoYEstados.dll" target="lib\netstandard2.0\MobilityScm.Modelo.TipoYEstados.dll" />
+  </files>
+</package>

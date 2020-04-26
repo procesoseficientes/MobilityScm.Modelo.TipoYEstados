@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jxibMIvcVyGAjPjB6SC7PVHBmpvJ/cQ8i0+CKM2CXYnBP2W6KHGzxq7rPuguf/6A2M7jAJO67k8V0AchGWiTDQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fabrv\\work\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fabrv\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\fabrv\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

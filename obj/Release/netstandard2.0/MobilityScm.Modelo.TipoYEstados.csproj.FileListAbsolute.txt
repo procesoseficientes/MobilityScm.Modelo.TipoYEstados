@@ -1,0 +1,9 @@
+C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\bin\Release\netstandard2.0\MobilityScm.Modelo.TipoYEstados.deps.json
+C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\bin\Release\netstandard2.0\MobilityScm.Modelo.TipoYEstados.dll
+C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\bin\Release\netstandard2.0\MobilityScm.Modelo.TipoYEstados.pdb
+C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\obj\Release\netstandard2.0\MobilityScm.Modelo.TipoYEstados.csprojAssemblyReference.cache
+C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\obj\Release\netstandard2.0\MobilityScm.Modelo.TipoYEstados.csproj.CoreCompileInputs.cache
+C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\obj\Release\netstandard2.0\MobilityScm.Modelo.TipoYEstados.AssemblyInfoInputs.cache
+C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\obj\Release\netstandard2.0\MobilityScm.Modelo.TipoYEstados.AssemblyInfo.cs
+C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\obj\Release\netstandard2.0\MobilityScm.Modelo.TipoYEstados.dll
+C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\obj\Release\netstandard2.0\MobilityScm.Modelo.TipoYEstados.pdb

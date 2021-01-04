@@ -890,7 +890,7 @@ namespace MobilityScm.Modelo.Tipos
     {
         [StringValue("http://localhost:8088/SecurityAPI/odata/")]
         UrlDesarrollo,
-        [StringValue("http://mobilitywebapi.centralus.cloudapp.azure.com:1025/SecurityAPI/odata/")]
+        [StringValue("https://license-api-mock.herokuapp.com/")]
         UrlProducion,
         [StringValue("http://190.56.115.27:9088/SecurityAPI/odata/")]
         UrlQA

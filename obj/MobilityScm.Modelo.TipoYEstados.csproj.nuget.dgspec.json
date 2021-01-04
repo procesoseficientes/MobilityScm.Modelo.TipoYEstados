@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fabrv\\work\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj": {}
+    "D:\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fabrv\\work\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj": {
+    "D:\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj": {
       "version": "1.0.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fabrv\\work\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj",
+        "projectUniqueName": "D:\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj",
         "projectName": "MobilityScm.Modelo.TipoYEstados",
-        "projectPath": "C:\\Users\\fabrv\\work\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj",
+        "projectPath": "D:\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj",
         "packagesPath": "C:\\Users\\fabrv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fabrv\\work\\MobilityScm.Modelo.TipoYEstados\\obj\\",
+        "outputPath": "D:\\MobilityScm.Modelo.TipoYEstados\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

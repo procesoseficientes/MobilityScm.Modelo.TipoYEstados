@@ -13,6 +13,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\bin\Release\net40\MobilityScm.Modelo.TipoYEstados.dll" target="lib\net40\MobilityScm.Modelo.TipoYEstados.dll" />
+    <file src="D:\MobilityScm.Modelo.TipoYEstados\bin\Release\net40\MobilityScm.Modelo.TipoYEstados.dll" target="lib\net40\MobilityScm.Modelo.TipoYEstados.dll" />
   </files>
 </package>

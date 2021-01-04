@@ -6,3 +6,11 @@ C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilitySc
 C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.AssemblyInfo.cs
 C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.dll
 C:\Users\fabrv\work\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.pdb
+D:\MobilityScm.Modelo.TipoYEstados\bin\Release\net40\MobilityScm.Modelo.TipoYEstados.dll
+D:\MobilityScm.Modelo.TipoYEstados\bin\Release\net40\MobilityScm.Modelo.TipoYEstados.pdb
+D:\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.csprojAssemblyReference.cache
+D:\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.csproj.CoreCompileInputs.cache
+D:\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.AssemblyInfoInputs.cache
+D:\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.AssemblyInfo.cs
+D:\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.dll
+D:\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.pdb

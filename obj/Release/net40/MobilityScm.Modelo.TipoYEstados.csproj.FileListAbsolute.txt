@@ -14,3 +14,11 @@ D:\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEst
 D:\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.AssemblyInfo.cs
 D:\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.dll
 D:\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.pdb
+C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\bin\Release\net40\MobilityScm.Modelo.TipoYEstados.dll
+C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\bin\Release\net40\MobilityScm.Modelo.TipoYEstados.pdb
+C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.csprojAssemblyReference.cache
+C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.AssemblyInfoInputs.cache
+C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.AssemblyInfo.cs
+C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.csproj.CoreCompileInputs.cache
+C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.dll
+C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.pdb

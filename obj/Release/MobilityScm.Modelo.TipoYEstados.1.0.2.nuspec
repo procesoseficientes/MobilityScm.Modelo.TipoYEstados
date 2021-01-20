@@ -4,7 +4,6 @@
     <id>MobilityScm.Modelo.TipoYEstados</id>
     <version>1.0.2</version>
     <authors>Procesos Eficientes</authors>
-    <owners>Procesos Eficientes</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Repositorio de Modelo.TipoYEstados</description>
     <repository url="https://github.com/procesoseficientes/MobilityScm.Modelo.TipoYEstados" />
@@ -13,6 +12,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="D:\MobilityScm.Modelo.TipoYEstados\bin\Release\net40\MobilityScm.Modelo.TipoYEstados.dll" target="lib\net40\MobilityScm.Modelo.TipoYEstados.dll" />
+    <file src="C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\bin\Release\net40\MobilityScm.Modelo.TipoYEstados.dll" target="lib\net40\MobilityScm.Modelo.TipoYEstados.dll" />
   </files>
 </package>

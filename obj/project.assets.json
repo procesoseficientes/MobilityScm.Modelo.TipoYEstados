@@ -8,23 +8,19 @@
     ".NETFramework,Version=v4.0": []
   },
   "packageFolders": {
-    "C:\\Users\\fabrv\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Compu Fire\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.2",
     "restore": {
-      "projectUniqueName": "D:\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj",
+      "projectUniqueName": "C:\\Users\\Compu Fire\\Documents\\Proyectos\\TipoYEstado\\MobilityScm.Modelo.TipoYEstados.csproj",
       "projectName": "MobilityScm.Modelo.TipoYEstados",
-      "projectPath": "D:\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj",
-      "packagesPath": "C:\\Users\\fabrv\\.nuget\\packages\\",
-      "outputPath": "D:\\MobilityScm.Modelo.TipoYEstados\\obj\\",
+      "projectPath": "C:\\Users\\Compu Fire\\Documents\\Proyectos\\TipoYEstado\\MobilityScm.Modelo.TipoYEstados.csproj",
+      "packagesPath": "C:\\Users\\Compu Fire\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Compu Fire\\Documents\\Proyectos\\TipoYEstado\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\fabrv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Compu Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -39,6 +35,7 @@
       },
       "frameworks": {
         "net40": {
+          "targetAlias": "net40",
           "projectReferences": {}
         }
       },
@@ -50,7 +47,8 @@
     },
     "frameworks": {
       "net40": {
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "targetAlias": "net40",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

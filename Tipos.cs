@@ -215,6 +215,14 @@ namespace MobilityScm.Modelo.Tipos
         Estado
     }
 
+    public enum TipoDeClasificacion
+    {
+        [StringValue("FEL_ESTABLISHMENT_CODE")]
+        CodigosDeEstablecimientoFel,
+        [StringValue("FEL_DOCUMENT_TYPE")]
+        TiposDeDocumentoFel
+    }
+
     public enum NombreDeClasificaciones
     {
         [StringValue("MANEJA_LINEA_DE_PICKING")]

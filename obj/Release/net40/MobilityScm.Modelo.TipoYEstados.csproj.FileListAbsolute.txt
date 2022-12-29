@@ -22,3 +22,12 @@ C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\obj\Release\net40\MobilitySc
 C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.csproj.CoreCompileInputs.cache
 C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.dll
 C:\Users\Compu Fire\Documents\Proyectos\TipoYEstado\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.pdb
+E:\MAINBASE\Documentos Proyectos - Trabajo - Universidad\Documentos Trabajo\Procesos eficientes\Proyectos\MobilityScm.Modelo.TipoYEstados\bin\Release\net40\MobilityScm.Modelo.TipoYEstados.dll
+E:\MAINBASE\Documentos Proyectos - Trabajo - Universidad\Documentos Trabajo\Procesos eficientes\Proyectos\MobilityScm.Modelo.TipoYEstados\bin\Release\net40\MobilityScm.Modelo.TipoYEstados.pdb
+E:\MAINBASE\Documentos Proyectos - Trabajo - Universidad\Documentos Trabajo\Procesos eficientes\Proyectos\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.csproj.AssemblyReference.cache
+E:\MAINBASE\Documentos Proyectos - Trabajo - Universidad\Documentos Trabajo\Procesos eficientes\Proyectos\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.GeneratedMSBuildEditorConfig.editorconfig
+E:\MAINBASE\Documentos Proyectos - Trabajo - Universidad\Documentos Trabajo\Procesos eficientes\Proyectos\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.AssemblyInfoInputs.cache
+E:\MAINBASE\Documentos Proyectos - Trabajo - Universidad\Documentos Trabajo\Procesos eficientes\Proyectos\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.AssemblyInfo.cs
+E:\MAINBASE\Documentos Proyectos - Trabajo - Universidad\Documentos Trabajo\Procesos eficientes\Proyectos\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.csproj.CoreCompileInputs.cache
+E:\MAINBASE\Documentos Proyectos - Trabajo - Universidad\Documentos Trabajo\Procesos eficientes\Proyectos\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.dll
+E:\MAINBASE\Documentos Proyectos - Trabajo - Universidad\Documentos Trabajo\Procesos eficientes\Proyectos\MobilityScm.Modelo.TipoYEstados\obj\Release\net40\MobilityScm.Modelo.TipoYEstados.pdb

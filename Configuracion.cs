@@ -157,6 +157,7 @@ namespace MobilityScm.Modelo.Configuracion
         , CONFIG_GROUP
         , SEGURIDAD_GROUP
         , USUARIOS
+        , AGREGAR_LICENCIA
     }
 
     public enum Swift3plCategory

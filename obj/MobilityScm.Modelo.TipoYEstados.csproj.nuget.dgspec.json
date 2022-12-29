@@ -1,22 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Compu Fire\\Documents\\Proyectos\\TipoYEstado\\MobilityScm.Modelo.TipoYEstados.csproj": {}
+    "E:\\MAINBASE\\Documentos Proyectos - Trabajo - Universidad\\Documentos Trabajo\\Procesos eficientes\\Proyectos\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Compu Fire\\Documents\\Proyectos\\TipoYEstado\\MobilityScm.Modelo.TipoYEstados.csproj": {
+    "E:\\MAINBASE\\Documentos Proyectos - Trabajo - Universidad\\Documentos Trabajo\\Procesos eficientes\\Proyectos\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj": {
       "version": "1.0.6",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Compu Fire\\Documents\\Proyectos\\TipoYEstado\\MobilityScm.Modelo.TipoYEstados.csproj",
+        "projectUniqueName": "E:\\MAINBASE\\Documentos Proyectos - Trabajo - Universidad\\Documentos Trabajo\\Procesos eficientes\\Proyectos\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj",
         "projectName": "MobilityScm.Modelo.TipoYEstados",
-        "projectPath": "C:\\Users\\Compu Fire\\Documents\\Proyectos\\TipoYEstado\\MobilityScm.Modelo.TipoYEstados.csproj",
-        "packagesPath": "C:\\Users\\Compu Fire\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Compu Fire\\Documents\\Proyectos\\TipoYEstado\\obj\\",
+        "projectPath": "E:\\MAINBASE\\Documentos Proyectos - Trabajo - Universidad\\Documentos Trabajo\\Procesos eficientes\\Proyectos\\MobilityScm.Modelo.TipoYEstados\\MobilityScm.Modelo.TipoYEstados.csproj",
+        "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
+        "outputPath": "E:\\MAINBASE\\Documentos Proyectos - Trabajo - Universidad\\Documentos Trabajo\\Procesos eficientes\\Proyectos\\MobilityScm.Modelo.TipoYEstados\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Compu Fire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net40"
@@ -42,7 +48,7 @@
       "frameworks": {
         "net40": {
           "targetAlias": "net40",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     }
